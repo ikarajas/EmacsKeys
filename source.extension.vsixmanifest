@@ -20,5 +20,9 @@
     <Asset Type="Microsoft.VisualStudio.VsPackage" d:Source="Project" d:ProjectName="%CurrentProject%" Path="|%CurrentProject%;PkgdefProjectOutputGroup|" />
     <Asset Type="Microsoft.VisualStudio.MefComponent" d:Source="Project" d:ProjectName="%CurrentProject%" Path="|%CurrentProject%|" />
   </Assets>
+  <Prerequisites>
+    <Prerequisite Id="Microsoft.Net.ComponentGroup.DevelopmentPrerequisites" Version="[15.0.26208.0,16.0)" DisplayName=".NET Framework 4.6.1 development tools" />
+  </Prerequisites>
+
 </PackageManifest>
 
